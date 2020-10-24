@@ -23,9 +23,9 @@
   },
   "devDependencies": {
     "@medv/finder": "^1.1.1",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel-eslint": "^8.2.1",
-    "chrome-launcher": "^0.10.5",
+    "chrome-launcher": "^0.13.4",
     "cssnano": "^4.1.10",
     "eslint": "^5.12.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -33,7 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.6.0",
     "nodemon": "^1.18.10",
-    "parcel": "^1.12.3",
+    "parcel": "^1.12.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
   },
