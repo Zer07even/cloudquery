@@ -1,18 +1,18 @@
 {
   "name": "cloudquery",
-  "profile": "timConsole",
+  "profile": "default",
   "proxy": {
     "command": "npm start",
     "timeout": 20,
     "listen_timeout": 5
   },
-  "regions": ["us-west-2"],
+  "regions": ["eu-west-2"],
   "static": {
     "dir": "public",
     "prefix": "/public/"
   },
   "lambda": {
-    "memory": 1024
+    "memory": 512
   },
   "hooks": {
     "build": "npm run build",
@@ -25,8 +25,6 @@
     }
   },
   "stages": {
-    "production": {
-      "domain": "cloudquery.t9t.io"
-    }
+    "staging": {}
   }
 }
